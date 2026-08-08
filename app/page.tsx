@@ -3,8 +3,8 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
-{/* Navigation */}
-      <nav className="bg-white shadow-sm sticky top-0 z-50">
+     {/* Navigation */}
+       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
           
           {/* UPDATED: Logo is now a clickable link to the homepage */}
