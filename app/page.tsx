@@ -3,12 +3,15 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
-      {/* Navigation */}
+{/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
-          <div className="flex items-center space-x-2">
+          
+          {/* UPDATED: Logo is now a clickable link to the homepage */}
+          <a href="/" className="flex items-center space-x-2 hover:opacity-80 transition cursor-pointer">
             <Image src="/bmg-logo.jpeg" alt="Baha Madzo Gadze Logo" width={60} height={60} className="object-contain" />
-          </div>
+          </a>
+
           <a href="#sponsorship" className="bg-[#F89945] text-white px-6 py-2 rounded-full font-bold hover:opacity-90 transition duration-300 shadow-md">
             Fund the 2026 Event
           </a>
